@@ -8,7 +8,7 @@ catalog: true 						# 是否归档
 tags:								#标签
     - python3
 ---
-## Hey
+## 
 >2. Add Two Numbers (Medium)
 Dealing with non-existing values:
 if node.val not exist but want to assign it to 0
