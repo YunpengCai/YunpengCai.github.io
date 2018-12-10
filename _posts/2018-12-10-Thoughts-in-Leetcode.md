@@ -3,7 +3,7 @@ layout:     post   				    # 使用的布局（不需要改）
 title:      Thoughts in Leetcode				# 标题 
 subtitle:    #副标题
 date:       2018-12-10 				# 时间
-author:     BY Yunpeng						# 作者
+author:     Yunpeng						# 作者
 header-img: img/post-bg-2015.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
