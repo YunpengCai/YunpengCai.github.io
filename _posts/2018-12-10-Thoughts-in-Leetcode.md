@@ -12,11 +12,19 @@ tags:								#标签
 ## 
 >
 2. Add Two Numbers (Medium)
+
 Dealing with non-existing values:
+
 if node.val not exist but want to assign it to 0
+
 instead of using
+
 if node: v1=node.val
+
 if not node: v1=0
+
 Try assign v1 to 0 in the beginning and only change its value when node exist to save space
+
 v1  = 0
+
 if node: v1 = node.val
