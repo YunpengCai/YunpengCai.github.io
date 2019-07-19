@@ -28,7 +28,7 @@ There are mainly three kinds of competitions, the **featured**, **research** and
 
 But if you want a fierce battle to prove yourself on your CV, then you should definitely go for the **featured** ones. Compared to **research** competitions, **featured** ones have more participants and thus more competitive. But do not be afraid, the chance to win a medal is still high as the medal system is depending on the size of the competition.  
 
-![Kaggle-medal-system](https://www.dropbox.com/s/7a5799j3jk7vymv/medal-system.png?dl=0)
+![Kaggle-medal-system](https://www.dropbox.com/s/7a5799j3jk7vymv/medal-system.png?dl=1)
 
 Then, there will be mainly 3 kinds of data format in competitions that you need to choose based on your career interest and skill set. The numeric data, image data, and text data. Choose the one fits you best!
 
@@ -52,7 +52,7 @@ EDA should always be the first thing to do once you download the datasets. Somet
 (4) Use groupby to create new features with your domain knowledge.  
 
 (5) Visualize numeric features with histogram or boxplot. Histogram is my favorite visualization way in combination with target value subplots. (Remember to try different bin width in order to discover hidden patterns)
-![histogram example](https://www.dropbox.com/s/un3oy5gduprnd63/histogram.png?dl=0)
+![histogram example](https://www.dropbox.com/s/un3oy5gduprnd63/histogram.png?dl=1)
 
 **Visualization matters!!!** Most of the time, people find the 'magic' hidden in the datasets with visualization. If you saw something wierd in the figure, dig into it and find out why. Visualize the data distribution by different ways in combination with the target values can be a good approach.
 
@@ -72,7 +72,7 @@ A common method to convert categorical features into numerical. Read [this post]
 
 (3) One-hot encoding  
 Covert categorical features into a sparse matrix that can be provided to ML algorithms. Let's say you have a categorical feature with 4 kinds like "1", "2", "3" and "4", but this will confuse the ML algorithm that Kind '3' and kind '2' are more similar than kind '4' and kind '1' (as 3-2 < 4-1), which is obviously wrong. You can use pandas.get_dummies to process the categorical features with more than 2 unique values. [Read this post](https://medium.com/@michaeldelsole/what-is-one-hot-encoding-and-how-to-do-it-f0ae272f1179) for more details.  
-![one-hot-encoding](https://www.dropbox.com/s/526zw6gfbujoind/one_hot_encoding.png?dl=0)
+![one-hot-encoding](https://www.dropbox.com/s/526zw6gfbujoind/one_hot_encoding.png?dl=1)
 (4) Aggregations and statistics  
 Calculate mean, mode,frequency, min or max values of one or several features to create informative new features with your domain knowledge. This may sounds easy but will take a lot of time from you as the combinations are infinite. Most helpful new features come to you by this approach. Do not just throw missing values away, counting the number of missing values can also be a new feature.  
 
@@ -100,7 +100,7 @@ What I list here are the methods I have not verified myself but seen recommedati
 ### 3. Hyperparameter tuning
 
 After you are totally out of feature engineering ideas and think its time to optimize your models, you can spend your time on hyperparameter tuning. Otherwise, new features added will require you to perform the tuning again. (You may see the performance of your model decreases even if a powerful new feature is feeded to your algorithm without tuning again). In order to save your time on hyperparameter tuning in a time-crunched competition, I would suggest you doing the following things.
-![overfitting-underfitting](https://www.dropbox.com/s/mwilvbarhenctnc/overfitting.png?dl=0)
+![overfitting-underfitting](https://www.dropbox.com/s/mwilvbarhenctnc/overfitting.png?dl=1)
 **Checklist**
 (1) As most of the players are using similar algorithms, go to the competition forum to get the hyperparameters from a good kernel and tune based on it.  
 
@@ -125,7 +125,7 @@ Model ensembling is a very powerful and popular technique that almost all the Ka
 
 (4) Do the ensemble at the end of competition.
 
-![An example of how ensemble improve the accuracy](https://www.dropbox.com/s/83ruqij8ouy6q20/ensemble.png?dl=0)
+![An example of how ensemble improve the accuracy](https://www.dropbox.com/s/83ruqij8ouy6q20/ensemble.png?dl=1)
 
 
 ## Tips when you get stuck
@@ -139,7 +139,7 @@ Model ensembling is a very powerful and popular technique that almost all the Ka
 ## Summary
 
 A Kaggle competition is not easy for everyone but can be the best opportunity for you to learn how to become a professional data scientist. Where there is a will there is a way. I hope you can win your first Kaggle medal and start your career in Data Science after reading this blog. Hard work pays off!!!
-![](https://www.dropbox.com/s/p90s2ws7rrvtrg4/kid.png?dl=0)
+![](https://www.dropbox.com/s/p90s2ws7rrvtrg4/kid.png?dl=1)
 
 
 
